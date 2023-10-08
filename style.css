@@ -540,7 +540,7 @@ body{
 
 .service_content{
   margin-top:30px;
-  width:75%;
+  width:85%;
   gap:10px;
   display:flex;
   flex-wrap:wrap;
@@ -578,11 +578,11 @@ body{
   margin-bottom:20px;
 }
 
-/* @media only screen and (max-width:1300px){
+@media only screen and (max-width:1300px){
   .service_content{
     margin-right:20px;
   }
-} */
+}
 
 @media only screen and (max-width:900px){
   .service_heading{
@@ -738,9 +738,11 @@ body{
   flex-wrap: wrap;
 } */
 
-.member_outer{
+  .member_outer{
   background-color: rgb(238, 237, 237);
   padding-bottom: 3%;
+  /* display: flex;
+  gap: 10px; */
 }
 .members_content_img1{
   width:103%;
@@ -778,6 +780,7 @@ body{
 .member_heading{
   padding-top:550px;
 }
+
 
 /* gallery */
 .gallery_heading{
